@@ -45,6 +45,7 @@ const form = document.querySelector('form');
       if (event.target == confirmation || event.target == close) {
         confirmation.style.display = "none";
         form.reset();
+        errorElement.innerText = '';
 
       }
     }

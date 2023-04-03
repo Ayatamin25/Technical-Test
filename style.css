@@ -174,7 +174,11 @@ border:none;
 border-radius: 12px;
 width: 355px;
 height: 54px;
+cursor: pointer;
+}
 
+.btn:hover {
+  background-color: #D10761;
 }
 
 

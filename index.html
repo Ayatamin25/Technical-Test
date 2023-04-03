@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Technical Test</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -49,7 +50,7 @@
       </div>
 
       <div class="form-right">
-        <form action="">
+        <form action="#">
           <h3>Sign up to get your free trial today!</h3>
 
           <label for="name">Name:</label><br>
@@ -67,13 +68,20 @@
             <input class="btn" type="submit" value="Start My Free Trial">
           </div>
 
+          <div id="error"></div>
 
         </form>
+
+        <div id="confirmation" class="hidden">
+          <i class="fa-solid fa-xmark"></i>
+          <img src="/assets/Welcome.jpg" alt="">
+          <h2 id="confirmationMessage">Welcome!</h2>
+        </div>
 
       </div>
 
     </div>
   </main>
-
+  <script src="myjs.js"></script>
 </body>
 </html>

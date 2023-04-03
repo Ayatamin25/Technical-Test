@@ -109,3 +109,25 @@ letter-spacing: 0px;
 color: #FFFFFF;
 text-transform: capitalize;
 }
+
+
+/* Form Submit */
+
+.hidden {
+  display: none;
+}
+#confirmation {
+text-align: center;
+font: normal normal normal 16px/24px Work Sans;
+letter-spacing: 0px;
+color: #828691;
+}
+
+i {
+  background-color: #ECEDF2 ;
+  color: #1E1F22;
+  border-radius: 50%;
+  width:16px;
+  height: 16px;
+  text-align: center;
+}

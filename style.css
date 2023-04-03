@@ -72,6 +72,26 @@ padding: 20px;
 margin-top: 20px;
 width: 400px;
 height: 450px;
+position: relative;
+}
+
+.limited {
+width: 145px;
+height: 46px;
+background-color: #FFDD4D;
+padding: 7px;
+position: absolute;
+left: -9px;
+top: -9px;
+
+}
+
+.limited p {
+text-align: center;
+font: normal normal 600 14px/28px Work Sans;
+letter-spacing: 0.56px;
+color: #1E1F22;
+text-transform: capitalize;
 }
 .namez {
   padding-top: 20px;
@@ -102,6 +122,10 @@ height: 44px;
 margin-bottom: 10px;
 } */
 
+.checkbox a{
+color: #1E1F22;
+}
+
 #name {
 border: 2px solid #ECEDF2;
 border-radius: 12px;
@@ -125,7 +149,8 @@ height: 16px;
 border: 2px solid #ECEDF2;
 border-radius: 5px;
 padding-left: 20px;
-margin-right: 17px;
+margin-right: 7px;
+opacity: 0.5;
 }
 .btn {
 background-color:#FD0272;
